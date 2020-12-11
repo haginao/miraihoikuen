@@ -1,0 +1,2029 @@
+/*topページ*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "筑紫A丸ゴシック";
+  background-color: #FBFBF6;
+  height: 100%;
+}
+
+/*header*/
+header {
+  height: 160px;
+  background-color: #FBFBF6;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  margin-top: 0px;
+  display: inline-flex;
+  justify-content: center;
+  position: fixed;
+}
+
+header h1 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin: 60px 73px;
+}
+
+header ul {
+  display: inline-flex;
+  padding-left: 0px;
+  width: 425px
+}
+
+header li {
+  list-style: none;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 34px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header img {
+  margin-bottom: 17px;
+}
+
+header p {
+  font-family: "ＫＦひま字";
+  font-size: 17px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.icon-1 {
+  margin-right: 58px;
+  margin-left: 66px;
+}
+
+.icon-2 {
+  margin-right: 50px;
+}
+
+.icon-4 {
+  margin-right: 57px;
+}
+
+.icon-5 {
+  margin-right: 28px;
+}
+
+.stand {
+  background-color: #DB7720;
+  border-radius: 30px;
+  width: 151px;
+}
+
+.stand img{
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.stand p {
+  color: #fafafa;
+  line-height: 1.18;
+  margin-bottom: 8px;
+}
+
+/*firstview*/
+.firstview {
+  position: relative;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.firstview img {
+  margin-top: 160px;
+}
+
+.firstview h1 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #fafafa;
+  line-height: 1.4;
+  padding: 22px 12px;
+  height: 560px;
+  background-color: #DB7720;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 176px;
+  left: 14vw;
+  border-radius: 45px;
+  text-align: start;
+}
+
+/*news*/
+.news {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 160px;
+  width: 100%;
+  position: relative;
+}
+
+.news-title {
+  margin-bottom: 50.7px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.news-title img {
+  margin: 0px 32px;
+}
+
+.news h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.news-inner {
+  margin: 0px 9.1vw;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.news-contents {
+  margin: 0px 16px;
+  background-color: #F8E9D1;
+  border: 1px solid #DB7720;
+  border-radius: 32px;
+  width: 229px;
+  height: 288.25px;
+}
+
+.news-contents img {
+  padding: 5px 5px 11.5px 5px;
+}
+
+.news-contents h5 {
+  font-family: "Baloo";
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin: 0px 0px 6px 9px;
+}
+
+.news-contents p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px 8px 8px 8px;
+}
+
+.cloud img {
+  z-index: -1;
+}
+
+.cloud-1 {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+}
+
+.cloud-2 {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+
+/*園の方針*/
+.policy {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 151px;
+}
+
+.policy-title {
+  margin-bottom: 51px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end
+}
+
+.policy-title img {
+  margin: 0px 32px;
+}
+
+.policy-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+  width: 440px;
+}
+
+.policy p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.68;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.policy-inner {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.policy-contents {
+  position: relative;
+  width: 393px;
+  text-align: center;
+  margin: 0px 56.5px;
+}
+
+.policy-img-1 {
+  margin-bottom: 31px;
+}
+
+.policy-img-2 {
+  margin-bottom: 24px;
+  margin-top: 2px;
+}
+
+
+.policy-contents h3 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  position: absolute;
+  top: 150px;
+  left: -42px;
+}
+
+.policy-contents p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+/*園の特色*/
+.features {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.features-title {
+  margin-bottom: 52px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end
+}
+
+.features-title img {
+  margin: 0px 32px;
+}
+
+.features-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.features-inner {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-contents {
+  position: relative;
+  text-align: center;
+  margin: 0px 46px;
+}
+
+.features-contents h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.features-contents p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.features-contents-img-1 {
+  margin-right: 16px;
+}
+
+.features-contents-img-2 {
+  margin-right: 6px;
+}
+
+.features-contents-img-3 {
+  margin-right: 5px;
+}
+
+/*contact-btn*/
+.contact-btn {
+  width: 548px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.contact-btn p {
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fafafa;
+  background-color: #DB7720;
+  border-radius: 52px;
+  padding: 32px 40px;
+}
+
+.contact-btn a {
+  text-decoration: none;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.44;
+  color: #333333;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.footer-tel {
+  margin-bottom: 80px;
+}
+
+.footer-tel p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+.footer-tel-number {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 1.5px;
+}
+
+.footer-tel-number h5 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin: 0px;
+}
+
+.footer-tel-number img {
+  margin-right: 8px;
+}
+
+.copyright p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+
+
+/*園について*/
+/*firstview*/
+.about {
+  margin-bottom: 96px;
+  margin-top: 200px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 80px;
+}
+
+.about-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+
+.about-img-top {
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-bottom: 80px
+}
+
+.about-img-top-0 {
+  position: absolute;
+  top: 124px;
+  left: 0px;
+  z-index: -1;
+}
+
+.about-img-top-1 {
+  position: absolute;
+  top: 124px;
+  left: 0px;
+}
+
+.about-inner {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about-inner p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.68;
+  margin: 10px 14px 64px 38px;
+}
+
+.about-inner-img-1 {
+  width: 26.6vw;
+  height: 300.5px;
+}
+
+.about-inner-img-2 {
+  height: 322.3px;
+  margin-top: 182px;
+  width: 28.4vw;
+}
+
+/*施設*/
+.facilities {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 10.3vw 160px 10.3vw;
+}
+
+.facilities-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end
+}
+
+.facilities-title img {
+  margin: 0px 32px;
+}
+
+.facilities-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.facilities-inner-1 {
+  display: inline-flex;
+  margin-bottom: 72px;
+}
+
+.facilities-inner-1 img {
+  margin-right: 80px;
+}
+
+.facilities-inner-1-text {
+  width: 240px;
+  margin-top: 89px;
+}
+
+.facilities-inner-1-text h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.facilities-inner-1-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.facilities-inner-2 {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.facilities-contents {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fa-co-1 {
+  margin-right: 40px;
+}
+
+.fa-co-2 {
+  margin: 0px 40px;
+}
+
+.fa-co-3 {
+  margin-left: 40px;
+}
+
+.facilities-contents img {
+  margin-bottom: 32px;
+}
+
+.facilities-contents h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.facilities-contents p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 18.75vw;
+}
+
+.fa-co-1 img {
+  width: 22.3vw;
+}
+
+.fa-co-2 img {
+  width: 21.8vw;
+}
+
+.fa-co-3 img {
+  width: 22.7vw;
+}
+
+/*給食*/
+.lunch {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.lunch-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.lunch-title img {
+  margin: 0px 32px;
+}
+
+.lunch-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.lunch-inner-1 {
+  display: inline-flex;
+  margin: 0px 10.3vw 6px 10.3vw;
+}
+
+.lunch-inner-1 img {
+  width: 43.6vw;
+  margin-right: 80px;
+}
+
+.lunch-inner-1-text {
+  width: 28.3vw;
+  margin-top: 45px;
+}
+
+.lunch h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.lunch-inner-1-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.lunch-inner-2 {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 0px 10.3vw 72px 10.3vw;
+}
+
+.lunch-inner-2 img {
+  width: 38.2vw;
+}
+
+.lunch-inner-2-text {
+  width: 32vw;
+  margin-right: 80px;
+  margin-top: 116px;
+}
+
+.lunch-inner-2-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+/*はたらく仲間たち*/
+.companions {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 213px;
+}
+
+.companions-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.companions-title img {
+  margin: 0px 32px;
+}
+
+.companions-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.companions-inner-1 {
+  display: inline-flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: 0px 10.3vw 157px 10.3vw;
+}
+
+.companions-inner-2 {
+  display: inline-flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: 0px 10.3vw 6px 10.3vw;
+}
+
+.companions-contents {
+  display: inline-flex;
+  width: 506px;
+}
+
+.cc-1,
+.cc-2,
+.cc-3,
+.cc-4 {
+  position: relative;
+}
+
+.companions-comments-1 {
+  position: absolute;
+  top: 102px;
+  left: 129px;
+}
+
+.companions-comments-2 {
+  position: absolute;
+  top: 102px;
+  left: 126px;
+}
+
+.companions-comments-3 {
+  position: absolute;
+  top: 109px;
+  left: 123px;
+}
+
+.companions-comments-4 {
+  position: absolute;
+  top: 109px;
+  left: 125px;
+}
+
+.companions-name {
+  margin-top: 32px;
+  margin-left: 56px;
+}
+
+.companions h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.companions h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-top: 0px;
+}
+
+/*アクセス*/
+.access {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.access-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.access-title img {
+  margin: 0px 32px;
+}
+
+.access-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.access-inner {
+  display: inline-flex;
+  margin: 0px 10.3vw;
+}
+
+iframe {
+  border: 4px solid #DB7720;
+  border-radius: 20px;
+}
+
+.access-inner-text {
+  margin-top: 40px;
+  margin-left: 64px;
+}
+
+.access-inner-text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.44;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.access-inner-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.map-btn {
+  width: 274px;
+}
+
+.map-btn p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fafafa;
+  background-color: #DB7720;
+  border-radius: 29px;
+  padding: 14px 24px;
+}
+
+.map-btn a {
+  text-decoration: none;
+}
+
+
+/*園の特色*/
+/*features-01*/
+.features-page-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.features-page-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+
+.features-page-title img {
+  margin-bottom: 4px;
+}
+
+.features-01 {
+  margin-bottom: 160px;
+}
+
+.features-01-title {
+  display: inline-flex;
+  margin: 0px 10.3vw 80px 10.3vw;
+}
+
+.features-01-title img {
+  margin-right: 24px;
+}
+
+.features-01-title-text {
+  margin-top: 314px;
+}
+
+.features-01-title-text h2 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.features-01-title-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.features-01-inner {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.features-01-inner p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.features-01-inner-1st {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px 10.3vw 120px 10.3vw;
+}
+
+.features-01-inner-2nd {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.features-01-contents {
+  width: 288px;
+}
+
+.fc-1 {
+  margin-right: 48px;
+}
+
+.fc-2 {
+  margin: 0px 48px;
+}
+
+.fc-3 {
+  margin-left: 48px;
+}
+
+.fc-4 {
+  margin-right: 48px;
+}
+
+.fc-5 {
+  margin-left: 48px;
+}
+
+.features-01-contents img {
+  margin-left: 4px;
+}
+
+.day-of-week {
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+.features-01-contents h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.features-01-contents p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+.string {
+  position: absolute;
+  top: 90px;
+  left: 236px;
+  z-index: -1;
+}
+
+/*features-02*/
+.features-02 {
+  margin-bottom: 160px;
+}
+
+.features-02-title {
+  display: inline-flex;
+  margin: 0px 10.3vw 80px 10.3vw;
+  position: relative;
+}
+
+.features-02-top-img {
+  position: absolute;
+  left: 520px;
+  top: 0px;
+}
+
+.features-02-number {
+  margin: 286px 36px 0px 0px;
+}
+
+.features-02-title-text {
+  margin-top: 342px;
+}
+
+.features-02-title-text h2 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.features-02-title-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.features-02-inner {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.features-02-inner img {
+  margin-right: 80px;
+}
+
+.features-02-inner p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  width: 336px;
+  margin-top: 135px;
+}
+
+.back-img {
+  margin: 0px;
+  position: absolute;
+  top: -81px;
+  left: 0px;
+  z-index: -1;
+}
+
+/*features-03*/
+.features-03 {
+  margin-bottom: 150px;
+}
+
+.features-03-title {
+  display: inline-flex;
+  margin: 0px 10.3vw 80px 10.3vw;
+}
+
+.features-03-title-text {
+  margin-top: 317px;
+  margin-left: 24px;
+}
+
+.features-03-title-text h2 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.features-03-title-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.features-03 h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.features-03-inner-1st {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px 10.3vw 66px 10.3vw;
+  width: 79.4vw;
+}
+
+.features-03-inner-2nd {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px 10.3vw;
+  width: 79.4vw;
+}
+
+.features-03-contents {
+  width: 452px;
+}
+
+.fc-spring,
+.fc-autumn {
+  margin-right: 80px;
+}
+
+.fc-summer {
+  margin-left: 5px;
+}
+
+.features-03-contents img {
+  margin-bottom: 32px;
+}
+
+.fc-spring-img {
+  width: 351.1px;
+}
+
+.fc-summer-img {
+  width: 347.33px;
+}
+
+.fc-autumn-img {
+  width: 351.1px;
+}
+
+.features-03-contents-under {
+  display: inline-flex;
+}
+
+.features-03-contents-under ul {
+  margin: 0px;
+}
+
+.features-03-contents-under li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 2.5;
+  margin: 0px;
+  margin-left: 24px;
+}
+
+.cu-spring img {
+  margin-left: 40px;
+  margin-top: -21.7px;
+  margin-bottom: 0px;
+}
+
+.cu-summer img {
+  margin-left: 72px;
+  margin-top: -13.7px;
+  margin-bottom: 0px;
+}
+
+.cu-autumn img {
+  margin-left: -9px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.cu-winter img {
+  margin-left: 50.7px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+
+ /*園の生活*/
+.life-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.life-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+
+.life-title img {
+  margin-bottom: 0px;
+}
+
+/*1日の流れ*/
+.flow {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 86px;
+}
+
+.flow-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flow-title img {
+  margin: 0px 32px;
+}
+
+.flow-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.flow-inner {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 14.8vw;
+  position: relative;
+}
+
+.center-line {
+  height: 3032px;
+  width: 4px;
+  background-color: #DB7720;
+  position: absolute;
+  left: 50%;
+  border-radius: 2px;
+  z-index: -1;
+}
+
+.flow-contents {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.flow-contents-right {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.fcr-shape {
+  display: inline-flex;
+}
+
+.fcr-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F2D285;
+}
+
+.fcr-border {
+  width: 35vw;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #F2D285;
+  margin-top: 24px;
+  margin-left: -25px;
+}
+
+.fcr-text {
+  margin-top: -44px;
+  margin-left: 81px;
+}
+
+.fcr-text h4 {
+  font-family: "ＫＦひま字";
+  font-size: 26px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.fcr-text h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.fcr-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.flow-contents-left {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.fcl-shape {
+  display: inline-flex;
+}
+
+.fcl-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F2D285;
+  margin-left: -25px;
+}
+
+.fcl-border {
+  width: 35.3vw;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #F2D285;
+  margin-top: 24px;
+}
+
+.fcl-text {
+  margin-top: -44px;
+  margin-left: 31px;
+}
+
+.fcl-text h4 {
+  font-family: "ＫＦひま字";
+  font-size: 26px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.fcl-text h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.fcl-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+/*預かり保育*/
+.childcare {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.childcare-title {
+  margin-bottom: 56px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.childcare-title img {
+  margin: 0px 32px;
+}
+
+.childcare-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.childcare-inner {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.childcare-inner p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.emphasis-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.emphasis-line {
+  width: 174px;
+  height: 8px;
+  background-color: #F2D285;
+  border-radius: 8px;
+  position: absolute;
+  z-index: -1;
+  top: 22px;
+  left: 596px;
+}
+
+
+/*入園案内*/
+.admission-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.admission-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+
+.admission-title img {
+  margin-bottom: -2px;
+}
+
+/*保育料*/
+.amounts {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.amounts-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.amounts-title img {
+  margin: 0px 32px;
+}
+
+.amounts-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.amounts-inner {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 14.8vw;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.amounts-inner-text {
+  display: inline-flex;
+  padding: 24px 0px 24px 40px;
+  border-bottom: 1px solid #F2D285;
+}
+
+.ait-last {
+  border-bottom: none;
+}
+
+.amounts-inner-text h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin: 0px 120px 0px 0px;
+}
+
+.amounts-inner-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin: 0px;
+  margin-right: 36px;
+}
+
+.amounts-inner-notes {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+/*募集について*/
+.about-recruitment {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.about-recruitment-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.about-recruitment-title img {
+  margin: 0px 32px;
+}
+
+.about-recruitment-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.about-recruitment p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  text-align: center;
+}
+
+/*入園までの流れ*/
+.admission-flow {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.admission-flow-title {
+  margin-bottom: 89px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.admission-flow-title img {
+  margin: 0px 32px;
+}
+
+.admission-flow-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.admission-flow-inner {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.admission-flow-contents {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0px 28.2vw 40px 28.2vw;
+  border-radius: 36px;
+}
+
+.afc-01 {
+  border-radius: 40px;
+}
+
+.afc-04 {
+  border-radius: 24px;
+}
+
+.admission-flow-contents img {
+  margin-top: -38px;
+  margin-bottom: 12px;
+}
+
+.admission-flow-contents h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.admission-flow-contents p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+.inverted-triangle {
+  margin-bottom: 78px;
+}
+
+
+/*よくある質問*/
+.question-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.question-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+
+.question-title img {
+  margin-bottom: 4.6px;
+}
+
+.question-inner {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 128px;
+}
+
+.question-contents {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 12.4vw 56px 12.4vw;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 32px;
+}
+
+.q-text {
+  display: inline-flex;
+}
+
+.q-text img {
+  margin-right: 44px;
+}
+
+.q-text p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+}
+
+.a-text {
+  display: inline-flex;
+}
+
+.a-text h5 {
+  font-family: "ＫＦひま字";
+  font-size: 26px;
+  font-weight: 600;
+  color: #DB7720;
+  line-height: 1;
+  margin: 0px;
+  margin-right: 44px;
+  padding: 16px 21px;
+}
+
+.a-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+}
+
+
+/*お問い合わせ*/
+.contact-header {
+  margin-top: -200px;
+}
+
+
+.contact {
+  margin-top: 200px;
+}
+
+.contact-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.contact-tel-inner {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.contact-tel-inner p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.contact-tel-number {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.contact-tel-number img {
+   margin-right: 16px;
+   margin-top: 5.8px;
+}
+
+.contact-tel-number p {
+  font-size: 39px !important;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 0px !important;
+}
+
+.contact-form-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.contact-form-title img {
+  margin: 0px 32px;
+}
+
+.contact-form-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.contact-form-inner {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form-inner li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-details {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.contact-details h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  width: 184px;
+  margin-right: 40px;
+  margin-top: 12px;
+}
+
+.contact-form-inner p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  width: 184px;
+  margin: 0px;
+  margin-right: 40px;
+}
+
+.contact-form-inner input {
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  width: 606px;
+  padding: 12px;
+}
+
+.contact-form-inner textarea {
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  width: 606px;
+  padding: 12px;
+  height: 232px;
+}
+
+.contact-btn {
+  width: 272px;
+  height: 55px;
+  border-radius: 28px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+}
+
+.contact-btn input {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fafafa;
+  padding: 15px 24px;
+  border: 0px;
+  background-color: #DB7720;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+/*お問い合わせ_03*/
+.contact-03-header {
+  margin-top: -200px;
+}
+
+.contact-03-title {
+  margin-top: 200px;
+}
+
+.contact-03-title h1 {
+  font-family: "ＫＦひま字";
+  font-size: 62px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.contact-03-form-title {
+  margin-bottom: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.contact-03-form-title img {
+  margin: 0px 32px;
+}
+
+.contact-03-form-title h2 {
+  font-family: "ＫＦひま字";
+  font-size: 40px;
+  font-weight: 400;
+  color: #DB7720;
+  line-height: 1;
+  margin-bottom: 5.3px;
+  margin-top: 0px;
+}
+
+.contact-03-form-inner {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact-03-form-inner h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.contact-03-form-inner p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.contact-03-btn {
+  width: 272px;
+  height: 55px;
+  border-radius: 28px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+}
+
+.contact-03-btn input {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fafafa;
+  padding: 15px 61px;
+  border: 0px;
+  background-color: #DB7720;
+  border-radius: 28px;
+  cursor: pointer;
+}
